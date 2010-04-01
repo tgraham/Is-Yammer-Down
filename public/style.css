@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow: hidden;
+}
+
+html, body, #wrap {
+  background-color: #909090;
+  height: 100%;
+}
+
+body > #wrap {
+  height: auto;
+  min-height: 100%;
+}
+
+a, a:hover, a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+img {
+  border: none;
+}
+
+#header {
+  background: #303030;
+  border-bottom: 2px solid #C0C0C0;
+  height: 120px;
+}
+
+#logo {
+  padding-top: 10px;
+  width: 495px;
+  margin: auto;
+}
+
+#main {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+/* CLEAR FIX*/
+.clearfix:after {
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+  display: inline-block;
+}
+/* Hides from IE-mac \*/
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+/* End hide from IE-mac */
+
+#status {
+  width: 801px;
+  margin: auto;
+}
+
+#footer {
+  margin-top: -200px;
+  clear: both;
+  background: #000;
+  border-top: 3px solid #C0C0C0;
+  height: 200px;
+}
+
+#sinatra {
+  width: 200px;
+  float: left;
+  padding: 55px 0 0 50px;
+}
+
+#dmz {
+  width: 180px;
+  float: right;
+  padding: 45px 50px 0 0;
+}
